@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>cipher-ai-assistant</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+        <!-- Gson (local jar) -->
+        <dependency>
+            <groupId>local</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/gson-2.10.1.jar</systemPath>
+        </dependency>
+
+        <!-- Vosk Speech Recognition -->
+        <dependency>
+            <groupId>local</groupId>
+            <artifactId>vosk</artifactId>
+            <version>0.3.45</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/vosk-0.3.45.jar</systemPath>
+        </dependency>
+
+        <!-- JNA (REQUIRED by Vosk) -->
+        <dependency>
+            <groupId>local</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.13.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/jna-5.13.0.jar</systemPath>
+        </dependency>
+
+        <!-- MaryTTS (Text to Speech) -->
+        <dependency>
+            <groupId>local</groupId>
+            <artifactId>marytts-runtime</artifactId>
+            <version>5.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/marytts-runtime-5.2-jar-with-dependencies.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>local</groupId>
+            <artifactId>voice-cmu-slt</artifactId>
+            <version>5.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/voice-cmu-slt-hsmm-5.2.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <!-- Plain Java compiler -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.12.1</version>
+                <configuration>
+                    <release>21</release>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

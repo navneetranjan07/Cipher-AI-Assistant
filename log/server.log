@@ -1,0 +1,200 @@
+2025-12-30 19:41:29,101 [Thread-1] INFO  marytts.main Mary starting up...
+2025-12-30 19:41:29,104 [Thread-1] INFO  marytts.main Specification version 5.2
+2025-12-30 19:41:29,104 [Thread-1] INFO  marytts.main Implementation version unknown
+2025-12-30 19:41:29,104 [Thread-1] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2025-12-30 19:41:29,345 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2025-12-30 19:41:29,349 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2025-12-30 19:41:29,350 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2025-12-30 19:41:29,352 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2025-12-30 19:41:29,355 [Thread-1] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2025-12-30 19:41:29,378 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2025-12-30 19:41:29,380 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2025-12-30 19:41:29,381 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2025-12-30 19:41:29,382 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2025-12-30 19:41:29,382 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2025-12-30 19:41:29,493 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2025-12-30 19:41:29,493 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2025-12-30 19:41:29,522 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2025-12-30 19:41:29,522 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2025-12-30 19:41:29,545 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2025-12-30 19:41:29,546 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2025-12-30 19:41:29,546 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2025-12-30 19:41:29,547 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2025-12-30 19:41:29,547 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Phonemiser'
+2025-12-30 19:41:29,560 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Preprocess'
+2025-12-30 19:41:29,566 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.MinimalisticPosTagger(fr,fr.)'
+2025-12-30 19:41:29,567 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.JTokeniser'
+2025-12-30 19:41:29,567 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Preprocess'
+2025-12-30 19:41:29,568 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(it.)'
+2025-12-30 19:41:29,579 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(it,it.pos)'
+2025-12-30 19:41:29,580 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Prosody'
+2025-12-30 19:41:29,580 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Postlex'
+2025-12-30 19:41:29,581 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.lb.LuxembourgishPreprocess'
+2025-12-30 20:09:03,723 [Thread-1] INFO  marytts.main Mary starting up...
+2025-12-30 20:09:03,726 [Thread-1] INFO  marytts.main Specification version 5.2
+2025-12-30 20:09:03,726 [Thread-1] INFO  marytts.main Implementation version unknown
+2025-12-30 20:09:03,726 [Thread-1] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2025-12-30 20:09:03,899 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2025-12-30 20:09:03,904 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2025-12-30 20:09:03,905 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2025-12-30 20:09:03,905 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2025-12-30 20:09:03,907 [Thread-1] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2025-12-30 20:09:03,927 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2025-12-30 20:09:03,930 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2025-12-30 20:09:03,931 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2025-12-30 20:09:03,931 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2025-12-30 20:09:03,931 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2025-12-30 20:09:04,048 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2025-12-30 20:09:04,049 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2025-12-30 20:09:04,087 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2025-12-30 20:09:04,087 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2025-12-30 20:09:04,107 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2025-12-30 20:09:04,108 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2025-12-30 20:09:04,108 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2025-12-30 20:09:04,108 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2025-12-30 20:09:04,108 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Phonemiser'
+2025-12-30 20:09:04,117 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Preprocess'
+2025-12-30 20:09:04,123 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.MinimalisticPosTagger(fr,fr.)'
+2025-12-30 20:09:04,124 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.JTokeniser'
+2025-12-30 20:09:04,124 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Preprocess'
+2025-12-30 20:09:04,125 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(it.)'
+2025-12-30 20:09:04,138 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(it,it.pos)'
+2025-12-30 20:09:04,138 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Prosody'
+2025-12-30 20:09:04,138 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Postlex'
+2025-12-30 20:09:04,139 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.lb.LuxembourgishPreprocess'
+2025-12-30 20:10:34,034 [Thread-1] INFO  marytts.main Mary starting up...
+2025-12-30 20:10:34,034 [Thread-1] INFO  marytts.main Specification version 5.2
+2025-12-30 20:10:34,042 [Thread-1] INFO  marytts.main Implementation version unknown
+2025-12-30 20:10:34,042 [Thread-1] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2025-12-30 20:10:34,259 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2025-12-30 20:10:34,263 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2025-12-30 20:10:34,263 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2025-12-30 20:10:34,265 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2025-12-30 20:10:34,275 [Thread-1] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2025-12-30 20:10:34,309 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2025-12-30 20:10:34,314 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2025-12-30 20:10:34,314 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2025-12-30 20:10:34,318 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2025-12-30 20:10:34,318 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2025-12-30 20:10:34,481 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2025-12-30 20:10:34,481 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2025-12-30 20:10:34,525 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2025-12-30 20:10:34,525 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2025-12-30 20:10:34,553 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2025-12-30 20:10:34,553 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2025-12-30 20:10:34,555 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2025-12-30 20:10:34,555 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2025-12-30 20:10:34,555 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Phonemiser'
+2025-12-30 20:10:34,565 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Preprocess'
+2025-12-30 20:10:34,591 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.MinimalisticPosTagger(fr,fr.)'
+2025-12-30 20:10:34,591 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.JTokeniser'
+2025-12-30 20:10:34,593 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Preprocess'
+2025-12-30 20:10:34,593 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(it.)'
+2025-12-30 20:10:34,606 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(it,it.pos)'
+2025-12-30 20:10:34,606 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Prosody'
+2025-12-30 20:10:34,606 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Postlex'
+2025-12-30 20:10:34,610 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.lb.LuxembourgishPreprocess'
+2025-12-30 20:46:22,647 [Thread-1] INFO  marytts.main Mary starting up...
+2025-12-30 20:46:22,651 [Thread-1] INFO  marytts.main Specification version 5.2
+2025-12-30 20:46:22,651 [Thread-1] INFO  marytts.main Implementation version unknown
+2025-12-30 20:46:22,651 [Thread-1] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2025-12-30 20:46:22,829 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JTokeniser'
+2025-12-30 20:46:22,835 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Preprocess'
+2025-12-30 20:46:22,836 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(de,de.pos)'
+2025-12-30 20:46:22,837 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.JPhonemiser'
+2025-12-30 20:46:22,839 [Thread-1] INFO  marytts.JPhonemiser_de User dictionary '.\user-dictionaries\userdict-de.txt' for locale 'de' does not exist. Ignoring.
+2025-12-30 20:46:22,864 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Prosody'
+2025-12-30 20:46:22,867 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.de.Postlex'
+2025-12-30 20:46:22,869 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(de)'
+2025-12-30 20:46:22,869 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2025-12-30 20:46:22,869 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2025-12-30 20:46:23,028 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2025-12-30 20:46:23,028 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2025-12-30 20:46:23,058 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2025-12-30 20:46:23,059 [Thread-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2025-12-30 20:46:23,092 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2025-12-30 20:46:23,093 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2025-12-30 20:46:23,093 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2025-12-30 20:46:23,094 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2025-12-30 20:46:23,094 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Phonemiser'
+2025-12-30 20:46:23,104 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.fr.Preprocess'
+2025-12-30 20:46:23,111 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.MinimalisticPosTagger(fr,fr.)'
+2025-12-30 20:46:23,112 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.JTokeniser'
+2025-12-30 20:46:23,112 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Preprocess'
+2025-12-30 20:46:23,115 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(it.)'
+2025-12-30 20:46:23,127 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(it,it.pos)'
+2025-12-30 20:46:23,127 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Prosody'
+2025-12-30 20:46:23,127 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.it.Postlex'
+2025-12-30 20:46:23,128 [Thread-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.lb.LuxembourgishPreprocess'
+2026-01-02 15:21:37,213 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 15:21:37,216 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 15:21:37,216 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 15:21:37,216 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 15:21:37,274 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 15:21:37,277 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 15:21:37,278 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 15:21:37,279 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 15:21:37,282 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 15:21:37,283 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 15:21:37,284 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 15:21:37,286 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 15:21:37,286 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 15:21:37,289 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 15:21:37,290 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 15:21:37,291 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 15:21:37,291 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 15:21:37,293 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 15:21:37,293 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 15:21:37,294 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 15:21:37,295 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 15:21:37,301 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 15:21:37,302 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 15:21:37,302 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 15:33:22,932 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 15:33:22,936 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 15:33:22,936 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 15:33:22,936 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 15:33:22,998 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 15:33:23,002 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 15:33:23,003 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 15:33:23,003 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 15:33:23,004 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 15:33:23,004 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 15:33:23,005 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 15:33:23,006 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 15:33:23,006 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 15:33:23,007 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 15:33:23,008 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 15:33:23,009 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 15:33:23,009 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 15:33:23,011 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 15:33:23,011 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 15:33:23,012 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 15:33:23,013 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 15:33:23,017 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 15:33:23,020 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 15:33:23,020 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 15:39:00,326 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 15:39:00,330 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 15:39:00,330 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 15:39:00,330 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 15:39:00,485 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 15:39:00,493 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 15:39:00,494 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 15:39:00,495 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 15:39:00,495 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 15:39:00,496 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 15:39:00,497 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 15:39:00,498 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 15:39:00,498 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 15:39:00,500 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 15:39:00,501 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 15:39:00,502 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 15:39:00,503 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 15:39:00,505 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 15:39:00,505 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 15:39:00,507 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 15:39:00,508 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 15:39:00,513 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 15:39:00,514 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 15:39:00,514 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).

@@ -17,28 +17,41 @@ public class SpeechRecognizer {
             "src/main/resources/models/vosk-model-small-en-us-0.15";
 
     private boolean awake = false;
-    private String lastText = "";
+    private long lastCommandTime = 0;
+    private static final long COOLDOWN_MS = 1500;
 
     public void startListening() {
 
         try {
             Model model = new Model(new File(MODEL_PATH).getAbsolutePath());
 
-            String grammar = """
+            // 🔹 Wake word grammar (loose)
+            String wakeGrammar = """
             [
               "prime",
               "hello prime",
               "hey prime",
-              "hi prime",
+              "hi prime"
+            ]
+            """;
+
+            // 🔹 Command grammar (strict)
+            String commandGrammar = """
+            [
               "open chrome",
               "open calculator",
               "open notepad",
               "open camera",
-              "what time is it"
+              "open spotify",
+              "open whatsapp",
+              "open vscode",
+              "open telegram",
+              "open settings"
             ]
             """;
 
-            Recognizer recognizer = new Recognizer(model, 16000, grammar);
+            Recognizer wakeRecognizer = new Recognizer(model, 16000, wakeGrammar);
+            Recognizer commandRecognizer = new Recognizer(model, 16000, commandGrammar);
 
             AudioFormat format = new AudioFormat(16000, 16, 1, true, false);
             TargetDataLine mic = AudioSystem.getTargetDataLine(format);
@@ -52,47 +65,61 @@ public class SpeechRecognizer {
             while (true) {
 
                 int bytesRead = mic.read(buffer, 0, buffer.length);
-                if (!recognizer.acceptWaveForm(buffer, bytesRead)) continue;
+                if (bytesRead <= 0) continue;
 
-                String json = recognizer.getResult();
-                JsonObject obj = JsonParser.parseString(json).getAsJsonObject();
-                String text = obj.get("text").getAsString().trim();
-
-                if (text.isEmpty()) continue;
-                if (text.equals(lastText)) continue;
-                lastText = text;
-
-                System.out.println("🗣 Heard: " + text);
-
-                // 💤 WAKE WORD ONLY
-                if (!awake && isWakeWord(text)) {
-                    awake = true;
-                    VoiceFeedback.beep();
-                    VoiceFeedback.speak("Yes boss");
+                // 💤 WAKE MODE
+                if (!awake) {
+                    if (wakeRecognizer.acceptWaveForm(buffer, bytesRead)) {
+                        String text = extractText(wakeRecognizer.getResult());
+                        if (isWakeWord(text)) {
+                            awake = true;
+                            VoiceFeedback.beep();
+                            VoiceFeedback.speak("Yes boss");
+                            System.out.println("👂 Prime awake");
+                        }
+                    }
                     continue;
                 }
 
-                // ⛔ Ignore everything until woken
-                if (!awake) continue;
+                // ⏱ Cooldown
+                if (System.currentTimeMillis() - lastCommandTime < COOLDOWN_MS)
+                    continue;
 
-                // 🎯 EXECUTE ONE COMMAND ONLY
-                CommandResponse response = CommandProcessor.process(text);
+                // 🎯 COMMAND MODE
+                if (commandRecognizer.acceptWaveForm(buffer, bytesRead)) {
 
-                if (!"unknown".equals(response.getCommand())) {
-                    VoiceFeedback.speak(response.getMessage());
-                    CommandExecutor.execute(response);
-                } else {
-                    VoiceFeedback.speak("Sorry boss, I didn't understand");
+                    String text = extractText(commandRecognizer.getResult());
+                    if (text.isEmpty()) continue;
+
+                    System.out.println("🗣 Command: " + text);
+
+                    CommandResponse response = CommandProcessor.process(text);
+
+                    if ("unknown".equals(response.getCommand())) {
+                        VoiceFeedback.speak("Sorry boss, I didn't understand");
+                    } else {
+                        VoiceFeedback.speak(response.getMessage());
+                        CommandExecutor.execute(response);
+                    }
+
+                    lastCommandTime = System.currentTimeMillis();
+                    awake = false;
+                    System.out.println("🛌 Prime sleeping…");
                 }
-
-
-                // 😴 GO BACK TO SLEEP
-                awake = false;
-                System.out.println("🛌 Prime sleeping…");
             }
 
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    // 🔧 Extract text safely from JSON
+    private String extractText(String json) {
+        try {
+            JsonObject obj = JsonParser.parseString(json).getAsJsonObject();
+            return obj.get("text").getAsString().trim().toLowerCase();
+        } catch (Exception e) {
+            return "";
         }
     }
 

@@ -61,6 +61,13 @@
             <systemPath>${project.basedir}/lib/voice-cmu-slt-hsmm-5.2.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>com.sun.speech</groupId>
+            <artifactId>freetts</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

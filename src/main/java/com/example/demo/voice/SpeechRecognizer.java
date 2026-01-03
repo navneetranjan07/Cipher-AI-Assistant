@@ -16,11 +16,8 @@ public class SpeechRecognizer {
     private static final String MODEL_PATH =
             "src/main/resources/models/vosk-model-small-en-us-0.15";
 
-    private static final String WAKE_WORD = "prime";
-
-    private boolean active = false;
-    private long lastActionTime = 0;
-    private static final long COOLDOWN = 2500;
+    private boolean awake = false;
+    private String lastText = "";
 
     public void startListening() {
 
@@ -34,8 +31,8 @@ public class SpeechRecognizer {
               "hey prime",
               "hi prime",
               "open chrome",
-              "open notepad",
               "open calculator",
+              "open notepad",
               "open camera",
               "what time is it"
             ]
@@ -48,7 +45,7 @@ public class SpeechRecognizer {
             mic.open(format);
             mic.start();
 
-            System.out.println("🛌 Sleeping… say 'hello prime'");
+            System.out.println("🛌 Prime sleeping…");
 
             byte[] buffer = new byte[4096];
 
@@ -62,52 +59,47 @@ public class SpeechRecognizer {
                 String text = obj.get("text").getAsString().trim();
 
                 if (text.isEmpty()) continue;
-
-                long now = System.currentTimeMillis();
-                if (now - lastActionTime < COOLDOWN) continue;
+                if (text.equals(lastText)) continue;
+                lastText = text;
 
                 System.out.println("🗣 Heard: " + text);
 
-                // 🔔 WAKE WORD (STRICT)
-                if (!active && (
-                        text.equals("prime") ||
-                                text.equals("hello prime") ||
-                                text.equals("hey prime") ||
-                                text.equals("hi prime")
-                )) {
-                    active = true;
-                    lastActionTime = now;
-
-                    BeepPlayer.wake();        // 🔔 Wake beep
-                    TextToSpeech.speak("Yes boss");
-
-                    System.out.println("🟢 Prime activated");
+                // 💤 WAKE WORD ONLY
+                if (!awake && isWakeWord(text)) {
+                    awake = true;
+                    VoiceFeedback.beep();
+                    VoiceFeedback.speak("Yes boss");
                     continue;
                 }
 
-                // 🚫 Ignore commands until wake
-                if (!active) continue;
+                // ⛔ Ignore everything until woken
+                if (!awake) continue;
 
-                // 🎯 PROCESS COMMAND
+                // 🎯 EXECUTE ONE COMMAND ONLY
                 CommandResponse response = CommandProcessor.process(text);
 
-                if (response.getCommand() == null) {
-                    BeepPlayer.error();       // ❌ error beep
-                    TextToSpeech.speak(response.getSpeech());
-                } else {
-                    BeepPlayer.success();    // ✅ success beep
+                if (!"unknown".equals(response.getCommand())) {
+                    VoiceFeedback.speak(response.getMessage());
                     CommandExecutor.execute(response);
+                } else {
+                    VoiceFeedback.speak("Sorry boss, I didn't understand");
                 }
 
-                // 😴 Sleep again
-                active = false;
-                lastActionTime = now;
-                BeepPlayer.sleepBeep();
+
+                // 😴 GO BACK TO SLEEP
+                awake = false;
                 System.out.println("🛌 Prime sleeping…");
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private boolean isWakeWord(String text) {
+        return text.equals("prime")
+                || text.equals("hello prime")
+                || text.equals("hey prime")
+                || text.equals("hi prime");
     }
 }

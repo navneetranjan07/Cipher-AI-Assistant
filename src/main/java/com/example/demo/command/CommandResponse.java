@@ -3,18 +3,18 @@ package com.example.demo.command;
 public class CommandResponse {
 
     private final String command;
-    private final String speech;
+    private final String message;
 
-    public CommandResponse(String command, String speech) {
+    public CommandResponse(String command, String message) {
         this.command = command;
-        this.speech = speech;
+        this.message = message;
     }
 
     public String getCommand() {
         return command;
     }
 
-    public String getSpeech() {
-        return speech;
+    public String getMessage() {
+        return message;
     }
 }

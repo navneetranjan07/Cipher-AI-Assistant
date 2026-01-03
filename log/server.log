@@ -198,3 +198,363 @@
 2026-01-02 15:39:00,513 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
 2026-01-02 15:39:00,514 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
 2026-01-02 15:39:00,514 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 15:59:55,816 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 15:59:55,819 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 15:59:55,819 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 15:59:55,820 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 15:59:55,876 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 15:59:55,879 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 15:59:55,880 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 15:59:55,880 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 15:59:55,881 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 15:59:55,881 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 15:59:55,882 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 15:59:55,883 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 15:59:55,883 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 15:59:55,885 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 15:59:55,886 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 15:59:55,887 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 15:59:55,887 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 15:59:55,889 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 15:59:55,889 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 15:59:55,890 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 15:59:55,892 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 15:59:55,899 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 15:59:55,901 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 15:59:55,901 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:05:07,903 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:05:07,906 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:05:07,906 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:05:07,906 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:05:07,962 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:05:07,968 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:05:07,968 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:05:07,969 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:05:07,970 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:05:07,971 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:05:07,972 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:05:07,973 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:05:07,973 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:05:07,976 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:05:07,977 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:05:07,978 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:05:07,979 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:05:07,980 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:05:07,981 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:05:07,981 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:05:07,982 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:05:07,987 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:05:07,989 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:05:07,989 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:10:17,692 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:10:17,696 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:10:17,696 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:10:17,696 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:10:17,736 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:10:17,739 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:10:17,740 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:10:17,741 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:10:17,741 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:10:17,742 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:10:17,742 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:10:17,743 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:10:17,743 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:10:17,745 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:10:17,746 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:10:17,747 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:10:17,748 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:10:17,749 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:10:17,749 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:10:17,750 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:10:17,751 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:10:17,757 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:10:17,759 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:10:17,759 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:18:45,799 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:18:45,817 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:18:45,818 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:18:45,818 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:18:45,885 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:18:45,888 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:18:45,889 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:18:45,890 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:18:45,890 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:18:45,891 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:18:45,892 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:18:45,893 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:18:45,893 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:18:45,896 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:18:45,898 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:18:45,899 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:18:45,900 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:18:45,902 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:18:45,902 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:18:45,903 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:18:45,904 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:18:45,910 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:18:45,911 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:18:45,911 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:26:31,159 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:26:31,174 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:26:31,174 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:26:31,174 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:26:31,249 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:26:31,254 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:26:31,255 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:26:31,256 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:26:31,257 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:26:31,257 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:26:31,258 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:26:31,259 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:26:31,260 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:26:31,262 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:26:31,263 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:26:31,263 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:26:31,264 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:26:31,266 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:26:31,267 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:26:31,267 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:26:31,268 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:26:31,274 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:26:31,276 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:26:31,276 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:29:25,704 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:29:25,714 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:29:25,714 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:29:25,714 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:29:25,766 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:29:25,770 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:29:25,771 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:29:25,772 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:29:25,773 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:29:25,774 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:29:25,774 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:29:25,775 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:29:25,776 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:29:25,777 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:29:25,779 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:29:25,779 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:29:25,780 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:29:25,783 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:29:25,783 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:29:25,785 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:29:25,786 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:29:25,791 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:29:25,792 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:29:25,792 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:31:42,771 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:31:42,782 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:31:42,782 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:31:42,782 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:31:42,840 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:31:42,842 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:31:42,843 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:31:42,844 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:31:42,844 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:31:42,845 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:31:42,845 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:31:42,846 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:31:42,846 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:31:42,848 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:31:42,849 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:31:42,849 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:31:42,850 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:31:42,852 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:31:42,852 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:31:42,853 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:31:42,853 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:31:42,857 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:31:42,858 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:31:42,858 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:32:11,446 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:32:11,455 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:32:11,455 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:32:11,455 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:32:11,508 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:32:11,511 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:32:11,512 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:32:11,512 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:32:11,512 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:32:11,513 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:32:11,514 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:32:11,515 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:32:11,515 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:32:11,517 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:32:11,518 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:32:11,519 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:32:11,519 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:32:11,521 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:32:11,522 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:32:11,522 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:32:11,523 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:32:11,527 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:32:11,528 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:32:11,528 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:36:37,919 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:36:37,928 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:36:37,928 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:36:37,928 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:36:37,995 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:36:38,000 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:36:38,001 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:36:38,002 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:36:38,003 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:36:38,003 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:36:38,004 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:36:38,005 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:36:38,006 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:36:38,009 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:36:38,010 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:36:38,011 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:36:38,012 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:36:38,014 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:36:38,015 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:36:38,015 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:36:38,017 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:36:38,022 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:36:38,023 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:36:38,023 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:38:10,353 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:38:10,363 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:38:10,363 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:38:10,363 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:38:10,421 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:38:10,424 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:38:10,424 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:38:10,425 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:38:10,425 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:38:10,426 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:38:10,427 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:38:10,428 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:38:10,428 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:38:10,430 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:38:10,430 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:38:10,431 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:38:10,431 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:38:10,433 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:38:10,433 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:38:10,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:38:10,435 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:38:10,439 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:38:10,440 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:38:10,440 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:45:51,631 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:45:51,646 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:45:51,646 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:45:51,646 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:45:51,688 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:45:51,698 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:45:51,698 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:45:51,698 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:45:51,698 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:45:51,703 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:45:51,703 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:45:51,705 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:45:51,705 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:45:51,708 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:45:51,708 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:45:51,713 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:45:51,715 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:45:51,715 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:50:55,748 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:50:55,758 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:50:55,758 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:50:55,758 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:50:55,796 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:50:55,801 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:50:55,801 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:50:55,804 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:50:55,804 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:50:55,804 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:50:55,806 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:50:55,806 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:50:55,808 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:50:55,808 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:50:55,808 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:50:55,808 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:50:55,808 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:50:55,814 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:50:55,814 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:50:55,815 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:50:55,815 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:50:55,824 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:50:55,824 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:50:55,824 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:53:47,361 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:53:47,370 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:53:47,370 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:53:47,370 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:53:47,426 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:53:47,434 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:53:47,442 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 16:58:58,528 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 16:58:58,540 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 16:58:58,540 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 16:58:58,540 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 16:58:58,597 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 16:58:58,602 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 16:58:58,602 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 16:58:58,602 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 16:58:58,607 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 16:58:58,607 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 16:58:58,607 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 16:58:58,607 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 16:58:58,607 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 16:58:58,614 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 16:58:58,626 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 16:58:58,626 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 16:58:58,626 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2026-01-02 17:05:20,983 [Thread-0] INFO  marytts.main Mary starting up...
+2026-01-02 17:05:21,005 [Thread-0] INFO  marytts.main Specification version 5.2
+2026-01-02 17:05:21,005 [Thread-0] INFO  marytts.main Implementation version unknown
+2026-01-02 17:05:21,005 [Thread-0] INFO  marytts.main Running on a Java 21.0.9 implementation by Microsoft, on a Windows 11 platform (amd64, 10.0)
+2026-01-02 17:05:21,069 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2026-01-02 17:05:21,074 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2026-01-02 17:05:21,075 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2026-01-02 17:05:21,077 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2026-01-02 17:05:21,077 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2026-01-02 17:05:21,077 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2026-01-02 17:05:21,077 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2026-01-02 17:05:21,080 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2026-01-02 17:05:21,080 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2026-01-02 17:05:21,082 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2026-01-02 17:05:21,085 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2026-01-02 17:05:21,085 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2026-01-02 17:05:21,085 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2026-01-02 17:05:21,089 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2026-01-02 17:05:21,089 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2026-01-02 17:05:21,089 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2026-01-02 17:05:21,092 [Thread-0] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2026-01-02 17:05:21,096 [Thread-0] INFO  marytts.UnitSelectionSynthesizer started.
+2026-01-02 17:05:21,099 [Thread-0] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2026-01-02 17:05:21,099 [Thread-0] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).

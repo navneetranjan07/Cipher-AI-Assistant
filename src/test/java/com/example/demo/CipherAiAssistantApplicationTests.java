@@ -1,13 +1,11 @@
 package com.example.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import com.example.demo.voice.SpeechRecognizer;
 
-@SpringBootTest
-class CipherAiAssistantApplicationTests {
+public class CipherAiAssistantApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    public static void main(String[] args) {
+        System.out.println("🤖 Prime AI Assistant started");
+        new SpeechRecognizer().startListening();
+    }
 }
